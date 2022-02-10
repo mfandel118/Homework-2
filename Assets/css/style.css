@@ -49,18 +49,28 @@ p {
   flex-wrap: wrap;
 }
 
-.card {
-}
-
 #contact-me a {
   color: #001540;
   margin-left: 1.25%;
   text-decoration: none;
 }
 
-@media screen and (max-width: 1048px) {
-  header {
-    display: flex;
-    flex-wrap: wrap;
+.project {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  background-color: #001540;
+}
+
+.applications {
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media screen and (min-width: 600px) {
+  .project {
+    width: 400px;
   }
 }
