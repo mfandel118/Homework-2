@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./Assets/css/style.css" />
     <title>Marissa Fandel's Portfolio</title>
   </head>
   <body>
-    <header>
+    <header class="heading">
       <h1>Marissa Fandel</h1>
       <nav>
         <ul>
@@ -20,25 +20,59 @@
     </header>
     <section id="about-me">
       <h2>About Me</h2>
-      <p>
-        I am a student of web development, currently enrolled in Coding Boot
-        Camp through the University of Denver. I am brand new to the world of
-        web development, and I am greatly enjoying my time spent in the Boot
-        Camp so far. Below, you can view a few of the recent projects I have
-        implemented as a part of my coursework.
-      </p>
+      <div class="about-me-container">
+        <img
+          class="pic"
+          src="./Assets/PXL_20201017_172759432.PORTRAIT-01.COVER_2.jpg"
+          alt="photo of Marissa Fandel"
+        />
+        <p>
+          I am a student of web development, currently enrolled in Coding Boot
+          Camp through the University of Denver. I am brand new to the world of
+          web development, and I am greatly enjoying my time spent in the Boot
+          Camp so far. Below, you can view a few of the recent projects I have
+          implemented as a part of my coursework.
+        </p>
+      </div>
     </section>
     <section id="my-apps">
       <h2>My Applications</h2>
       <article class="applications">
-        <div class="project"></div>
-        <div class="project"></div>
-        <div class="project"></div>
+        <div class="project">
+          <h3>Horiseon Refactoring:</h3>
+          <a href="https://mfandel118.github.io/Homework-1/"
+            ><img
+              class="project-img"
+              src="./Assets/Horiseon-refactor.png"
+              alt="Horiseon Screen Capture"
+          /></a>
+        </div>
+        <div class="project2">
+          <h3>Password Generator:</h3>
+          <a href="https://mfandel118.github.io/password-generator-homework3/"
+            ><img
+              class="project-img2"
+              src="./Assets/password-generated.png"
+              alt=" Password Generator Screen Capture"
+          /></a>
+        </div>
+        <div class="project2">
+          <h3>Code Quiz:</h3>
+          <a href="https://mfandel118.github.io/Code-Quiz-Homework4/"
+            ><img
+              class="project-img2"
+              src="./Assets/Sample-Question.png"
+              alt="Code Quiz Screen Capture"
+          /></a>
+        </div>
       </article>
     </section>
     <section id="contact-me">
       <h2>Contact Me</h2>
-      <a href="mailto:mfandel@alumni.nd.edu">Email Me!</a>
+      <a href="mailto:mfandel@alumni.nd.edu">Click Here to Email Me!</a>
+      <a href="https://github.com/mfandel118"
+        >Click Here to View My GitHub Repos!</a
+      >
     </section>
   </body>
 </html>
